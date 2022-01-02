@@ -1,0 +1,77 @@
+body
+{
+	background-color:#100024;
+	color: #209781;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lobster;
+	font-size: 30px;
+}
+
+a:link		{color: #209781; text-decoration:none;}
+a:visited	{color: #209781;}
+a:active	{color: #209781;}
+a:hover		{color: #E9B64A;}
+
+h1
+{
+	text-align:center;
+	font-size:48px;
+	margin-top: 20px;
+	letter-spacing: 5px;
+	margin-bottom:0px;
+}
+
+p
+{
+	text-align:center;
+	font-size:38px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.board
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:30px;
+	font-family: 'Vujahday Script', cursive;
+}
+.card
+{
+	width:200px;
+	height:200px;
+	display:inline-block;
+	margin:3px;
+	background-image: url("images/card.jpg");
+	border: 4px solid #209781;
+	border-radius: 8px;
+	cursor: pointer;
+	transition:all .25s ease-in-out;
+}
+.cardA
+{
+	width:200px;
+	height:200px;
+	display:inline-block;
+	margin:3px;
+	background-image: url("images/card.jpg");
+	border: 4px solid orange;
+	border-radius: 8px;
+	cursor: default;
+	transition:all .25s ease-in-out;
+}
+.score
+{
+	margin-top: 20px;
+	letter-spacing: 6px;
+}
+
+.card:hover
+{
+	border: 4px solid orange;
+	filter: brightness(100%);
+}
+#button
